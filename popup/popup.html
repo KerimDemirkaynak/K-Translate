@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <style>
+        body { font-family: sans-serif; width: 280px; padding: 16px; background: #202124; color: #e8eaed; margin: 0; }
+        h2 { margin: 0 0 16px 0; font-size: 16px; color: #8ab4f8; text-align: center; border-bottom: 1px solid #3c4043; padding-bottom: 12px; }
+        .setting-group { margin-bottom: 16px; }
+        label { display: block; font-size: 13px; margin-bottom: 6px; color: #9aa0a6; }
+        select { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #3c4043; background: #000000; color: white; outline: none; font-size: 13px; }
+        button { width: 100%; margin-bottom: 8px; padding: 10px; border-radius: 6px; border: 1px solid #3c4043; background: #3c4043; color: #e8eaed; cursor: pointer; font-size: 13px; transition: background 0.2s; }
+        button:hover { background: #4a4d51; }
+        button.danger { color: #f28b82; background: rgba(242,139,130,0.1); border-color: rgba(242,139,130,0.3); }
+        button.danger:hover { background: rgba(242,139,130,0.2); }
+        .divider { height: 1px; background: #3c4043; margin: 16px 0; }
+        #status { font-size: 12px; color: #81c995; text-align: center; height: 16px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2 data-i18n="popupTitle">K-Translate Ayarları</h2>
+
+    <div class="setting-group">
+        <label data-i18n="defaultTargetLang">Varsayılan Hedef Dil</label>
+        <select id="targetLang">
+            <option value="tr">Türkçe</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="ja">日本語 (Japonca)</option>
+            <option value="es">Español (İspanyolca)</option>
+            <option value="fr">Français (Fransızca)</option>
+            <option value="ru">Русский (Rusça)</option>
+            <option value="ko">한국어 (Korece)</option>
+            <option value="zh-CN">中文 (Çince)</option>
+            <option value="ar">العربية (Arapça)</option>
+        </select>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="setting-group">
+        <label data-i18n="manageBlacklists">Kara Liste Yönetimi</label>
+        <button id="clearSites" class="danger" data-i18n="clearSites">Engellenen Siteleri Temizle</button>
+        <button id="clearLangs" class="danger" data-i18n="clearLangs">Engellenen Dilleri Temizle</button>
+    </div>
+
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

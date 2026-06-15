@@ -1,0 +1,18 @@
+{
+  "extensionName": { "message": "K-Translate (Web Translator)" },
+  "extensionDescription": { "message": "Translate web pages quickly without breaking the layout." },
+  
+  "popupTitle": { "message": "K-Translate Settings" },
+  "defaultTargetLang": { "message": "Default Target Language" },
+  "manageBlacklists": { "message": "Blacklist Management" },
+  "clearSites": { "message": "Clear Blocked Sites" },
+  "clearLangs": { "message": "Clear Blocked Languages" },
+  "statusSaved": { "message": "Saved ✔" },
+  "statusCleared": { "message": "Cleared ✔" },
+
+  "btnTranslate": { "message": "Translate Page" },
+  "btnRevert": { "message": "Show Original" },
+  "optNeverSite": { "message": "Never Translate This Site" },
+  "optNeverLang": { "message": "Never Translate This Language" },
+  "advancedOptions": { "message": "Settings" }
+}

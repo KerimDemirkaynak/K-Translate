@@ -1,0 +1,18 @@
+{
+  "extensionName": { "message": "K-Translate (Web Çevirmeni)" },
+  "extensionDescription": { "message": "Sayfaları hızlı ve arayüzü bozmadan çevirin." },
+  
+  "popupTitle": { "message": "K-Translate Ayarları" },
+  "defaultTargetLang": { "message": "Varsayılan Hedef Dil" },
+  "manageBlacklists": { "message": "Kara Liste Yönetimi" },
+  "clearSites": { "message": "Engellenen Siteleri Temizle" },
+  "clearLangs": { "message": "Engellenen Dilleri Temizle" },
+  "statusSaved": { "message": "Kaydedildi ✔" },
+  "statusCleared": { "message": "Temizlendi ✔" },
+
+  "btnTranslate": { "message": "Sayfayı Çevir" },
+  "btnRevert": { "message": "Orijinali Göster" },
+  "optNeverSite": { "message": "Bu Siteyi Asla Çevirme" },
+  "optNeverLang": { "message": "Bu Dili Asla Çevirme" },
+  "advancedOptions": { "message": "Ayarlar" }
+}
