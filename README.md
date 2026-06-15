@@ -8,15 +8,17 @@
   <strong>A lightweight, layout-preserving web page translator with a smart Ghost UI.</strong>
 </p>
 
-<p align="center"><a href="https://addons.mozilla.org/en-US/firefox/addon/ktranslate/"><img src="https://img.shields.io/badge/Firefox-Add--on-orange?style=for-the-badge&logo=firefox-browser" alt="Firefox Add-on"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="LICENSE"><img src="https://img.shields.io/badge/License-MPL_2.0-blue.svg?style=for-the-badge" alt="License: MPL 2.0"></a></p>
+<p align="center"><a href="https://addons.mozilla.org/en-US/firefox/addon/ktranslate/"><img src="https://img.shields.io/badge/Firefox-Add--on-orange?style=for-the-badge&logo=firefox-browser" alt="Firefox Add-on"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://greasyfork.org/en/scripts/582896-k-translate"><img src="https://img.shields.io/badge/GreasyFork-Userscript-red?style=for-the-badge&logo=tampermonkey" alt="GreasyFork Userscript"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="LICENSE"><img src="https://img.shields.io/badge/License-MPL_2.0-blue.svg?style=for-the-badge" alt="License: MPL 2.0"></a></p>
 
 ---
 
 ## 🌟 Overview
 
-**K-Translate** is a powerful browser extension designed to break down language barriers without cluttering your web browsing experience. 
+**K-Translate** is a powerful browser extension and userscript designed to break down language barriers without cluttering your web browsing experience. 
 
 Unlike traditional translation extensions that alter the website's original aesthetics or constantly distract you with persistent floating buttons, K-Translate features an intelligent **Ghost UI**. The interface remains completely hidden on pages that are already in your preferred language or listed on your blacklist, appearing seamlessly only when foreign text is detected and needs translation.
+
+* **Current Version:** `v22.1.0`
 
 ### 📸 Screenshots
 
@@ -43,11 +45,11 @@ Unlike traditional translation extensions that alter the website's original aest
 
 ---
 
-## 🔗 Store Link
+## 🔗 Quick Links
 
-The official, verified version of K-Translate is available on the Mozilla Add-ons store:
-
-👉 **[Get K-Translate for Firefox](https://addons.mozilla.org/en-US/firefox/addon/ktranslate/)**
+* 🦊 **[Get K-Translate for Firefox](https://addons.mozilla.org/en-US/firefox/addon/ktranslate/)**
+* 🚀 **[Install Userscript via GreasyFork](https://greasyfork.org/en/scripts/582896-k-translate)**
+* 📜 **[Raw Userscript Source (GitHub Gist)](https://gist.githubusercontent.com/KerimDemirkaynak/253cf2cb80acf267df856c758313edb1/raw/03e4e411c7c3c2e591c7ba67018cee0f07d37319/K-Translate.js)**
 
 ---
 
